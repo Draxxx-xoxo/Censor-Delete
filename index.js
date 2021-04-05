@@ -10,7 +10,7 @@ client.once('ready', () => {
 });
 
 client.on('message', async message => {
-	if(message.channel.id == 822106967409557545){
+	if(message.channel.id == "826470337074954261"){
 		if(!message.content.startsWith('owo') && !message.content.startsWith('!d bump')){
 			message.delete()
 			console.log(message.content + ' has been deleted from ' + message.channel.name)
