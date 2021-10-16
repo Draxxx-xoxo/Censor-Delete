@@ -1,0 +1,7 @@
+censor:
+  censor_words: ['ew', 'no'] #censor words (list)
+  whitelist_words: ['sure', 'cool'] # whitelist_words (list)
+  link_filter: #coming_soon (boolean)
+  invite_filter: #coming_soon (boolean)
+  ignore_channels: [''] #channels where you don't want censor (list)
+  ignore_users: [''] #users where you don't want censor (list)
